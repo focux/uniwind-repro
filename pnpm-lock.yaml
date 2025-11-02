@@ -29,6 +29,9 @@ importers:
       expo-font:
         specifier: 14.0.10-canary-20251031-b135dff
         version: 14.0.10-canary-20251031-b135dff(expo@55.0.0-canary-20251031-b135dff)(react-native@0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1))(react@19.1.1)
+      expo-glass-effect:
+        specifier: ^0.1.5
+        version: 0.1.5(expo@55.0.0-canary-20251031-b135dff)(react-native@0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1))(react@19.1.1)
       expo-haptics:
         specifier: 15.0.8-canary-20251031-b135dff
         version: 15.0.8-canary-20251031-b135dff(expo@55.0.0-canary-20251031-b135dff)
@@ -2333,6 +2336,13 @@ packages:
     resolution: {integrity: sha512-k93W7S9PkSx+M3x8+zIzVJZvDShicyOkD14k6C9vLJTDptVwwAnAmBpSpwMeV9iaX1DkzixbfP1DG+3m37CDPw==}
     peerDependencies:
       expo: 55.0.0-canary-20251031-b135dff
+      react: '*'
+      react-native: '*'
+
+  expo-glass-effect@0.1.5:
+    resolution: {integrity: sha512-DnleHtTpWET89I4GQsr4PDDvesKFA4miX+xV+1+ko5Z6SHkanBHD8gAOnvf07wTanzm4e8dAf0/abu7JmZlZIA==}
+    peerDependencies:
+      expo: '*'
       react: '*'
       react-native: '*'
 
@@ -7337,6 +7347,12 @@ snapshots:
     dependencies:
       expo: 55.0.0-canary-20251031-b135dff(@babel/core@7.28.4)(@expo/dom-webview@0.2.8-canary-20251031-b135dff)(@expo/metro-runtime@6.2.0-canary-20251031-b135dff)(expo-router@7.0.0-canary-20251031-b135dff)(react-dom@19.1.1(react@19.1.1))(react-native-web@0.21.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react-native@0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1))(react@19.1.1)
       fontfaceobserver: 2.3.0
+      react: 19.1.1
+      react-native: 0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1)
+
+  expo-glass-effect@0.1.5(expo@55.0.0-canary-20251031-b135dff)(react-native@0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1))(react@19.1.1):
+    dependencies:
+      expo: 55.0.0-canary-20251031-b135dff(@babel/core@7.28.4)(@expo/dom-webview@0.2.8-canary-20251031-b135dff)(@expo/metro-runtime@6.2.0-canary-20251031-b135dff)(expo-router@7.0.0-canary-20251031-b135dff)(react-dom@19.1.1(react@19.1.1))(react-native-web@0.21.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(react-native@0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1))(react@19.1.1)
       react: 19.1.1
       react-native: 0.82.1(@babel/core@7.28.4)(@types/react@19.1.17)(react@19.1.1)
 
